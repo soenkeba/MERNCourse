@@ -12,13 +12,17 @@ console.log(test);
 
 var AnzahlEier = 7;
 
+var Vorname = "Sönke";
+var Nachnamen = "Bartling";
+console.log(`${Vorname} ${Nachnamen}`);
+
 ReactDOM.render(
   <div>
     <h1> Hallo </h1>
     <ul>
       <li> Milch </li>
       <li> Eier {AnzahlEier}</li>
-      <li> Kuchen </li>
+      <li> Kuchen {`${Vorname} ${Nachnamen}`}</li>
     </ul>
   </div>,
   document.getElementById("root")
