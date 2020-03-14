@@ -1,2 +1,0 @@
-# MERNCourse
-Created with CodeSandbox
