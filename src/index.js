@@ -8,14 +8,16 @@ import ReactDOM from "react-dom";
 
 var test = document.createElement("h1");
 test.innerHTML = "blablablaba";
-
 console.log(test);
+
+var AnzahlEier = 7;
+
 ReactDOM.render(
   <div>
     <h1> Hallo </h1>
     <ul>
       <li> Milch </li>
-      <li> Eier </li>
+      <li> Eier {AnzahlEier}</li>
       <li> Kuchen </li>
     </ul>
   </div>,
